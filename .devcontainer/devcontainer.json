@@ -1,0 +1,13 @@
+{
+    "name": "selenium-dotnet",
+    "image": "mcr.microsoft.com/dotnet/sdk:8.0",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-azuretools.vscode-docker",
+        "anthropic.claude-code"
+    ],
+    "postCreateCommand": "dotnet restore Tests/Tests.csproj"
+}

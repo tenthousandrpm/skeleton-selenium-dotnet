@@ -1,0 +1,4 @@
+*.code-workspace
+Tests/bin/
+Tests/obj/
+Tests/appsettings.local.json
